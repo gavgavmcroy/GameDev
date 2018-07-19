@@ -5,6 +5,7 @@ image_speed = 1;
 
 //---Time Based Movement Engine For Character
 var move_speed_this_frame= move_speed*global.delta_seconds_passed; 
+//donkey dick
 
 //---Character Walking Speed 
 move_speed=200; 
