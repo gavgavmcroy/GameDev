@@ -7,7 +7,7 @@
         "9cb37a6f-b938-4f01-848e-20f17f903325"
     ],
     "filterType": "GMObject",
-    "folderName": "Misc ",
+    "folderName": "Global Variables",
     "isDefaultView": false,
     "localisedFolderName": ""
 }

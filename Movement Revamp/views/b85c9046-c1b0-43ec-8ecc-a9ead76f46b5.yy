@@ -7,7 +7,7 @@
         "290609e2-0db1-4e2e-a97e-009dca1b252d"
     ],
     "filterType": "GMScript",
-    "folderName": "Collisions Script",
+    "folderName": "Smart Collisions Script",
     "isDefaultView": false,
     "localisedFolderName": ""
 }
