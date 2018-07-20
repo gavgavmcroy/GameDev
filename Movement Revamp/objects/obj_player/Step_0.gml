@@ -23,16 +23,17 @@ move_speed=200;
 
 Value_of_x=sign(move_xinput);
 Value_of_y=sign(move_yinput);
+
 //---System to determine if Animation Will play based on x and y cancellation
+if(Value_of_x==0 and Value_of_y==0){
+	sprite_index = spr_ares_idle_down ; 	
+}
 
 //---Reset Movement
 move_yinput=0;
 move_xinput=0; 
 
 //---System to determine if Animation Will play based on x and y cancellation 
-if(Value_of_x==0 and Value_of_y==0){
-	sprite_index = spr_ares_idle_down ; 	
-}
 
 for(var i =0 ; i < array_length_1d(movement_inputs); i++){
 	var this_key = movement_inputs[i];
@@ -94,3 +95,4 @@ if(keyboard_check(vk_nokey))and this_angle=270{
 if(keyboard_check(ord("R"))){
 game_restart()	
 }
+
