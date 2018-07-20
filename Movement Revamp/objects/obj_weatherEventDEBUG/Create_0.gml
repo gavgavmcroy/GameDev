@@ -1,6 +1,6 @@
 partRain_sys = part_system_create();
 
-rain=true;
+rain=false;
 //---Turns Rain on or off 
 //---Assigned Depth towards rain
 depth=-9;
