@@ -17,4 +17,7 @@ move_xinput=0;
 //---Start Value of Smart Cordinate Checker
 Value_of_x=0;
 Value_of_y=0;
-
+//---Speed of Animation for Delta_time 
+sneak_anim_speed=25; 
+walk_anim_speed=50; 
+run_anim_speed=100;

@@ -8,5 +8,4 @@ draw_text(10,55,"Y Movement: "+string(move_yinput));
 draw_text(10,70,"Sign Of X Movement: "+string(Value_of_x));
 draw_text(10,85,"Sign Of Y Movement: "+string(Value_of_y));
 draw_text(10,100,"Frame Rate: "+string(round(fps_real)));
-draw_text(10,115,"Camera X "+string(camera_get_view_y(view_camera[0])));
-draw_text(10,130,"Camera Y "+string(camera_get_view_x(view_camera[0])));
+draw_text(10,115,"Anim Speed "+string(image_speed));

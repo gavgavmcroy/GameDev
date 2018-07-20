@@ -1,7 +1,7 @@
 /// @description Movement Engine
 
 //---Default Image Speed 
-image_speed = 1;
+image_speed = walk_anim_speed * global.delta_seconds_passed; 
 
 //---Time Based Movement Engine For Character
 var move_speed_this_frame= move_speed*global.delta_seconds_passed; 
@@ -13,12 +13,12 @@ move_speed=200;
 //---Speeds Shift=400 and Control=100 Temporary Speeds 
 	if(keyboard_check(vk_shift)){
 		move_speed=move_speed+200;
-		image_speed=2;
+		image_speed=run_anim_speed *global.delta_seconds_passed;
 		}
 
 	if(keyboard_check(vk_control)){
 		move_speed=move_speed-100;
-		image_speed = .5; 
+		image_speed = sneak_anim_speed *global.delta_seconds_passed; 
 		}
 
 Value_of_x=sign(move_xinput);
