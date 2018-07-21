@@ -1,5 +1,6 @@
 /// @description Time Based Movement
 //---Player Movement Speed
+//---satato is lame
 move_speed=200;
 //---Right Movement
 movement_inputs[0] =ord("D");
