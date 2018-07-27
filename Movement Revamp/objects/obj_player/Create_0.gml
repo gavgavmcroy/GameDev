@@ -21,3 +21,5 @@ Value_of_y=0;
 sneak_anim_speed=25; 
 walk_anim_speed=50; 
 run_anim_speed=100;
+
+ 
